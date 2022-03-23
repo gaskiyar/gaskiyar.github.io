@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height:60px;
 }
 
 /*--------------------------------------------------------------
@@ -632,6 +632,11 @@ section {
     line-height: 1;
     font-size: 36px;
   }
+  /*.features .nav-link h4 {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 30px 0;
+ }*/
 }
 @media (max-width: 575px) {
   .features .nav-link {
@@ -640,6 +645,14 @@ section {
   .features .nav-link i {
     font-size: 24px;
   }
+  .features .tab-content {
+    text-align: center;
+  }
+  /*.features .nav-link h4 {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 30px 0;
+ }*/
 }
 .features .tab-content {
   margin-top: 30px;
